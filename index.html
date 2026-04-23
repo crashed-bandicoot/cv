@@ -1,120 +1,275 @@
-
-<!-- Boiler-plate code (HTML+Enter) -->
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Ornette's Personal Site 🤝</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ornette Matthews | Senior Analytics Engineer" />
+  <meta name="theme-color" content="#0b0b0d" />
+  <title>Ornette Matthews | Senior Analytics Engineer</title>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-
 <body>
-  <!-- You can adjust the image shape using crop-circle -->
-  <table cellspacing="20">
-    <tr>
-      <td><img src="Ornette.jpg" alt="Picture of Ornette" width="300" height="300"></td>
-      <td>
-        <h1>Ornette 'Bambino' Matthews</h1>
-        <p><em>Data Analyst, Musician and Visual Architect</em></p>
-        <p>
-          I am a Data/Business Analyst, with an aptitude for strategy.
-          I am an aspiring musician, writer and visual designer.</p>
-          <p>
-          At the moment, I work for the <strong><a href="https://www.bpi.co.uk/">BPI</a></strong>.
-        </p>
-      </td>
-      <td><img src="E8Petrie.svg.png" alt="E8 Lattice"></td>
-    </tr>
-  </table>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">OM</div>
+        <div class="brand-copy">
+          <h1>Ornette Matthews</h1>
+          <p>Senior Analytics Engineer</p>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Section navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <hr>
+  <main>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <article class="hero-card">
+          <div class="eyebrow">London · Strategic Analytics · Premium Execution</div>
+          <h2>Building <span>analytics systems</span> that turn complexity into growth.</h2>
+          <p class="hero-lead">
+            Strategic and outcome-driven analytics professional with experience across healthcare, finance, and entertainment. I design data products, modelling layers, and analytics workflows that help executives, marketers, operators, and technical teams make sharper decisions.
+          </p>
+          <div class="hero-actions">
+            <a class="button" href="mailto:ornettematthews@gmail.com">Get in touch</a>
+            <a class="button-secondary" href="#experience">View experience</a>
+          </div>
+        </article>
 
-  <h3>Experience</h3>
-  <table>
-    <tr>
-      <td>Apr 2019 - Present</td>
-      <td>Data & Insights Analyst</td>
-      <td>BPI <a href="bpi.co.uk">bpi.co.uk</a></td>
-    </tr>
-      <td>Sep 2018 - Jan 2019</td>
-      <td>Insight Analyst</td>
-      <td>PPL <a href="ppluk.com">ppluk.com</a></td>
-    <tr></tr>
-  </table>
+        <aside class="hero-side">
+          <section class="panel" id="contact">
+            <p class="panel-title">Contact</p>
+            <div class="contact-list">
+              <div class="contact-item">
+                <span class="label">Email</span>
+                <a class="value" href="mailto:ornettematthews@gmail.com">ornettematthews@gmail.com</a>
+              </div>
+              <div class="contact-item">
+                <span class="label">Phone</span>
+                <a class="value" href="tel:+447858583770">+44 7858 583770</a>
+              </div>
+              <div class="contact-item">
+                <span class="label">Location</span>
+                <span class="value">London, SW11</span>
+              </div>
+            </div>
+          </section>
 
-  <hr>
+          <section class="panel">
+            <p class="panel-title">Selected strengths</p>
+            <div class="highlights">
+              <div class="highlight-item">
+                <span class="label">Stakeholder range</span>
+                <span class="value">Execs, marketers, engineers, doctors, lawyers</span>
+              </div>
+              <div class="highlight-item">
+                <span class="label">Core edge</span>
+                <span class="value">Analytics engineering, data modelling, AI-enabled products</span>
+              </div>
+              <div class="highlight-item">
+                <span class="label">Delivery style</span>
+                <span class="value">Systematic, commercial, high-trust</span>
+              </div>
+            </div>
+          </section>
+        </aside>
+      </div>
+    </section>
 
-  <h3>Education</h3>
-    <ul>
-        <li>BSc Economics and Econometrics (University of Bristol)</li>
-        <li>Front-end Web Development: HTML, CSS, JavaScript (Angular)</li>
-        <li>Back-end Web Development: SQL, Python (Django), Azure, AWS</li>
-        <li>Business Analysis: Part-qualified by BCS (2 of 4 modules completed)</li>
-        <li>Music Production: Songwriting and vocals, Piano, Ableton Live</li>
-        <li>Visual Architecture: p5.js, Blender</li>
-        <li>Languages: English (fluent), Spanish (intermediate), Japanese (basic)</li>
-    </ul>
+    <section class="section" id="about">
+      <div class="shell section-grid">
+        <div class="section-intro">
+          <p class="section-kicker">Profile</p>
+          <h3>About</h3>
+        </div>
+        <div class="section-content">
+          <article class="about-card">
+            <p>
+              I partner confidently with senior decision-makers and cross-functional teams to translate data into business action. My work spans the full stack of modern analytics, from pipelines and semantic layers to dashboards, experimentation frameworks, and AI-powered tools. The through-line is simple: create clarity, build leverage, and improve outcomes that matter.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <hr>
+    <section class="section" id="experience">
+      <div class="shell section-grid">
+        <div class="section-intro">
+          <p class="section-kicker">Track record</p>
+          <h3>Experience</h3>
+        </div>
+        <div class="section-content">
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Senior Business Intelligence Analyst · eMed</h4>
+                <p class="job-meta">Previously Business Intelligence Analyst · UK & US analytics ownership</p>
+              </div>
+              <div class="job-date">Jul 2025 – Present · Jan 2024 – Jun 2025</div>
+            </div>
+            <ul>
+              <li>Owned and systemised the analytics product across the UK and US, delivering timely KPI and SLA reporting across Executive, Marketing, Operations, and Finance teams.</li>
+              <li>Built a retention analytics suite that enabled 1,000+ reactivations and supported split-testing across promotions, product changes, and initiatives, driving stronger LTV and MRR performance.</li>
+              <li>Strengthened US B2B relationships by building an analytics suite for onboarded clients and sales performance tracking.</li>
+              <li>Reduced fulfilment times by 3x through workflow data modelling and operational analysis.</li>
+              <li>Designed a personalised AI chatbot for the SheMed app, including semantic layer design and model output refinement.</li>
+              <li>Spearheaded analytics engineering standards across data modelling and architecture to accelerate development and enable AI and ML workflows.</li>
+              <li>Recruited and mentored analysts while embedding documentation discipline and data stewardship principles.</li>
+            </ul>
+          </article>
 
-  <h3>Skills</h3>
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Freelance Digital Consultant · SnapTime Media</h4>
+                <p class="job-meta">Web design, CRM automation, client growth support</p>
+              </div>
+              <div class="job-date">Jul 2023 – Dec 2023</div>
+            </div>
+            <ul>
+              <li>Designed and launched websites for clients across trades, education, and mental health.</li>
+              <li>Delivered tailored web experiences aligned to client goals, improving usability and online presence.</li>
+              <li>Implemented CRM automation to nurture leads and support more predictable conversion.</li>
+            </ul>
+          </article>
 
-  <table cellspacing="10">
-  <tr>
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Business Data Analyst (Contract) · Chelsea FC</h4>
+                <p class="job-meta">Customer segmentation, revenue insight, analytics QA</p>
+              </div>
+              <div class="job-date">Apr 2023 – Jul 2023</div>
+            </div>
+            <ul>
+              <li>Identified high-value customer segments across ticketing, memberships, merchandise, tours, and app usage using recency-frequency analysis.</li>
+              <li>Improved customer lifetime value workflows through QA and stronger SQL and dbt processes, supporting more reliable revenue forecasting.</li>
+            </ul>
+          </article>
 
-    <td>
-      <h4>Technical Skills</h4>
-      <table cellspacing="10">
-        <tr>
-          <td>Transact-SQL for Business Intelligence</td>
-          <td>🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Data Visualisation and Reporting (Tableau)</td>
-          <td>🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Python for Data Cleaning and Preparation</td>
-          <td>🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Web Development (Angular, Django)</td>
-          <td>🌟</td>
-        </tr>
-      </table>
-    </td>
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Data Analyst · Generation Home</h4>
+                <p class="job-meta">Scale-stage fintech analytics and B2B reporting</p>
+              </div>
+              <div class="job-date">Nov 2021 – Mar 2023</div>
+            </div>
+            <ul>
+              <li>Scaled analytics capability during a 6x growth period, building B2B reporting and SLA tracking that reduced funnel times by 3x.</li>
+              <li>Delivered board-level reporting frameworks in Looker and established parallel reporting infrastructure for Gen H Legal in Power BI.</li>
+            </ul>
+          </article>
 
-    <td>
-      <h4>Languages</h4>
-      <table cellspacing="10">
-        <tr>
-          <td>English</td>
-          <td>🌟🌟🌟🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Spanish</td>
-          <td>🌟🌟</td>
-        </tr>
-        <tr>
-          <td>Japanese</td>
-          <td>🌟</td>
-        </tr>
-        <tr>
-          <td>Mandarin</td>
-          <td>🌟</td>
-        </tr>
-      </table>
-    </td>
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Senior Data & Insights Analyst · BPI</h4>
+                <p class="job-meta">Operational intelligence, legal insight, executive reporting</p>
+              </div>
+              <div class="job-date">Apr 2019 – Oct 2021</div>
+            </div>
+            <ul>
+              <li>Designed and launched the Traffic Intelligence Database in SQL and Power BI, creating a central source of truth for operational and legal intelligence.</li>
+              <li>Delivered high-stakes analytics to the CEO and General Counsel for government enquiries, media communications, litigation support, and lobbying efforts with major tech platforms.</li>
+            </ul>
+          </article>
 
-  </table>
-  </tr>
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Insight Analyst (FTC) · PPL</h4>
+                <p class="job-meta">Revenue recovery, dispute resolution, data quality</p>
+              </div>
+              <div class="job-date">Sep 2019 – Jan 2021</div>
+            </div>
+            <ul>
+              <li>Built dispute resolution dashboards in Tableau that supported a potential £6m uplift within a £50m revenue recovery function.</li>
+              <li>Partnered with Data Governance to lead a company-wide data quality investigation, strengthening trust in business-critical data.</li>
+            </ul>
+          </article>
 
+          <article class="experience-card">
+            <div class="job-top">
+              <div>
+                <h4>Account Manager · Bell Marketing</h4>
+                <p class="job-meta">Campaign performance and client strategy</p>
+              </div>
+              <div class="job-date">Oct 2017 – Jul 2018</div>
+            </div>
+            <ul>
+              <li>Optimised multi-channel campaigns across five client accounts using Google Ads, Google Analytics, and Facebook.</li>
+              <li>Maintained an average cost-of-sale of 18% while managing reporting and strategy conversations with clients.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  <hr>
-  <ul>
-  <li><a href="hobbies.html">Skills and Interests</a></li>
-  <li><a href="contact.html">Contact Me</a></li>
-  </ul>
+    <section class="section" id="skills">
+      <div class="shell section-grid">
+        <div class="section-intro">
+          <p class="section-kicker">Capability</p>
+          <h3>Skills</h3>
+        </div>
+        <div class="section-content">
+          <article class="skills-card">
+            <div class="skill-group">
+              <h4>Business Intelligence</h4>
+              <p>Looker, Power BI, Tableau, Excel, dashboarding, reporting, data modelling.</p>
+            </div>
+            <div class="skill-group">
+              <h4>Programming</h4>
+              <p>SQL across T-SQL, BigQuery, and Redshift. Python including Pandas, Matplotlib, Beautiful Soup, and Scikit-Learn.</p>
+            </div>
+            <div class="skill-group">
+              <h4>Analytics Engineering</h4>
+              <p>dbt, GCP, AWS, Airflow, ETL and ELT workflows, transformation layers, and pipeline orchestration.</p>
+            </div>
+            <div class="skill-group">
+              <h4>Product and Event Analytics</h4>
+              <p>Google Tag Manager, Segment, PostHog, Google Analytics, event schema design and implementation.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="shell section-grid">
+        <div class="section-intro">
+          <p class="section-kicker">Foundation</p>
+          <h3>Education</h3>
+        </div>
+        <div class="section-content">
+          <article class="education-card">
+            <div class="job-top">
+              <div>
+                <h4>University of Bristol</h4>
+                <p class="job-meta">BSc Economics and Econometrics (2:1)</p>
+              </div>
+              <div class="job-date">2014 – 2017</div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <div class="footer-card">
+        <p>Ornette Matthews · Senior Analytics Engineer</p>
+        <a class="button-secondary" href="mailto:ornettematthews@gmail.com">ornettematthews@gmail.com</a>
+      </div>
+    </div>
+  </footer>
 </body>
-
 </html>
